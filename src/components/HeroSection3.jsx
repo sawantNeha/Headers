@@ -6,21 +6,20 @@ const HeroSection3 = () => {
   return (
     <div>
         <div className='flex  relative w-full max-w-[1080px] h-[96px] items-center  justify-between mx-auto '>
-            <div className='flex items-center justify-between'>
+           
 
                <img className='w-[90px] h-[36px]' src={logo}></img>
 
-                <div className='flex items-center '>
-               <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <div className='z-10'>
+               <svg height="32" viewBox="0 0 24 24" width="32" xmlns="http://www.w3.org/2000/svg">
                <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
                <path d="m4.5 6.5h12"/><path d="m4.498 10.5h11.997"/><path d="m4.5 14.5h11.995"/></g></svg>
                </div>
-            </div>
         </div>
         
         <div className='flex flex-row w-full max-w-[1080px] mx-auto items-center justify-between py-14 px-7'>
             <div>
-                <button className='rounded-full px-4 text-[10px] font-Poppins h-[20px] text-lightyellow bg-yellow-50 '>Premiun Product</button>
+                <button className='rounded-full px-4 text-[10px] font-Poppins h-[20px] text-lightyellow bg-yellow-50 font-semibold '>Premiun Product</button>
 
                 <h1 className='text-[44px] font-Poppins font-bold leading-[120%] mt-4'>Design is intelligence <br></br> made visible</h1>
 
@@ -31,7 +30,7 @@ const HeroSection3 = () => {
 
                 <input type='email'
                      placeholder='Email address'
-                     className='w-72 border rounded-md'
+                     className='w-72 border rounded-md px-2'
                 />
                 
                
@@ -44,7 +43,7 @@ const HeroSection3 = () => {
             </div>
         </div>
         <div className='flex right-0 top-0 absolute'>
-            <img className='w-[650px] h-[750px]' src={image}></img>
+            <img className='w-full h-[750px] object-contain' src={image}></img>
         </div>
 
     </div>

@@ -1,11 +1,8 @@
 import React from 'react'
 import logo from "../images/onDark.png"
 import icon from "../images/icon.png"
-import memoji from "../images/memoji.png"
-import rectangle from "../images/Rectangle 3.png"
-import send from "../images/send.png"
-import successfull from "../images/successfullsent.png"
-import voucher from "../images/voucher.png"
+import memoji from "../images/memojimen.png"
+import section5 from "../images/Section5.png"
 const HeroSection5 = () => {
   return (
     <div>
@@ -39,17 +36,14 @@ const HeroSection5 = () => {
                 Create interactive user flow diagrams that tell a story.
             </p>
 
-            <img className='w-[800px] h-[500px]' src={rectangle}></img>
+            <img className='w-[900px] h-[500px]' src={section5}></img>
            
            
         </div>
 
         <img className='w-[120px] h-[120px] rotate-[-15deg] absolute left-32 top-44' src={icon}></img>
         
-             <img className='w-[40px] h-[40px] absolute right-64 top-52 ' src={memoji}></img>
-             <img className='w-[120px] h-[142px] absolute left-72' src={send}></img>
-             <img className='w-[300px] h-[200px] absolute right-56 ' src={successfull}></img>
-             <img className='w-[200px] h-[150px] absolute left-72 top-96' src={voucher}></img>
+             <img className='w-[60px] h-[60px] absolute right-72 top-56 ' src={memoji}></img>
             
     </div>
   )

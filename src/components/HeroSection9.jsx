@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../images/onDark.png"
-import background from "../images/2_0000 12.png"
+import image from "../images/section9.png"
 
 const HeroSection8 = () => {
   return (
@@ -47,7 +47,7 @@ const HeroSection8 = () => {
 
         </div>
         <div>
-          <img className='w-[669px] h-[600px]' src={background}></img>
+          <img className='w-[669px] h-[600px]' src={image}></img>
         </div>
       </div>
     </div>
